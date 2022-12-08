@@ -7,3 +7,4 @@ http.createServer(function (req, res) {
     return res.end();
   });
 }).listen(8080);
+console.log("port listening at localhost:8080");
